@@ -3,7 +3,7 @@
     padding: 0;
 }
 :root {
-    font-size: 5vh;
+    font-size: 4vh;
     min-width: 200px;
     min-height: 300px;
 }
@@ -50,6 +50,7 @@ body {
 }
 h1 {
     border: 2px dotted black;
+    text-align: center;
     /* font-size: 5vh; */
 }
 header {
@@ -90,6 +91,7 @@ main {
 }
 p {
     border: 2px solid blue;
+    text-align: center;
 }
 .footer {
     display: flex;
