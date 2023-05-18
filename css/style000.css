@@ -4,8 +4,8 @@
 }
 :root {
     font-size: 4vh;
-    min-width: 200px;
-    min-height: 300px;
+    /* min-width: 200px;
+    min-height: 300px; */
 }
 /* html {
     scroll-behavior: smooth;
@@ -15,56 +15,60 @@ body {
     background-color:rgb(213, 235, 255);
     font-family: consolas;
     height: 100vh;
-    width: 100vw; /* ? */
+    /* width: 100vw; */
     display: flex;
     flex-direction: column;
     /* align-content:space-between; */
-    border: 2px solid green;
+    /* border: 2px solid green; */
 }
 .wrapper {
-    margin-top: 1vh;
-    margin-bottom: 1vh;
-    margin-left: 1vw;
-    margin-right: 1vw;
+    margin-top: 1vmin;
+    margin-bottom: 1vmin;
+    margin-left: 1vmin;
+    margin-right: 1vmin;
     /* padding-top: 1vh;
     padding-bottom: 1vh;
     padding-left: 1vw;
     padding-right: 1vw; */
     height: 100vh;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     display: flex;
     flex-wrap: wrap;
 }
 .inner {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 100%;
     display: flex;
-    margin-top: 1vh;
-    margin-bottom: 1vh;
-    margin-left: 1vw;
-    margin-right: 1vw;
+    margin-top: 1vmin;
+    margin-bottom: 1vmin;
+    margin-left: 1vmin;
+    margin-right: 1vmin;
     justify-content: center;
     align-items: center;
 }
-.page-title {
-}
+/* .page-title {
+} */
 h1 {
-    border: 2px dotted black;
+    /* border: 2px dotted black; */
     text-align: center;
     /* font-size: 5vh; */
 }
 header {
-    border: 2px dotted orange;
+    /* border: 2px dotted orange; */
+    display: flex;
 }
 nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    border: 2px solid green;
+    /* border: 2px solid green; */
     height: 100%;
     align-content: center;
 }
 section {
+    display: flex;
+}
+a {
     border-radius: 2vh;
     background-color:rgb(255, 255, 255);
     box-shadow: 0 0 0.4rem gray;
@@ -72,25 +76,26 @@ section {
     text-overflow: ellipsis;
     word-wrap: break-word;
     text-align: center;
-    margin-top: 1vh;
-    margin-bottom: 1vh;
-    margin-left: 1vw;
-    margin-right: 1vw;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    margin-left: 4vw;
+    margin-right: 4vw;
     padding-top: 2vh;
     padding-bottom: 2vh;
     padding-left: 2vw;
     padding-right: 2vw;
+    text-decoration: none;
 }
 main {
     /* text-align: center; */
-    border: 2px dotted green;
+    /* border: 2px dotted green; */
     /* width: 100%; */
     align-items: center;
     justify-content: center;
     display: flex;
 }
 p {
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     text-align: center;
 }
 .footer {
