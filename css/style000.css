@@ -83,6 +83,8 @@ nav {
 }
 section {
     display: flex;
+    /* border-radius: 2vh; */
+    justify-content: center;
 }
 a {
     border-radius: 2vh;
@@ -101,6 +103,10 @@ a {
     padding-left: 2vw;
     padding-right: 2vw;
     text-decoration: none;
+}
+a:active {
+    background-color:rgb(250, 250, 250);
+    box-shadow: 0 0 0.2rem gray;
 }
 main {
     /* text-align: center; */
