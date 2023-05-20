@@ -48,5 +48,5 @@ article {
     background-color: limegreen;
 }
 #html-tags p {
-    display: inline;
+    /* display: inline; */
 }
