@@ -25,6 +25,7 @@ section {
 }
 .title {
     margin-top: 0;
+
     text-align: center;
     color: rgb(141, 200, 255);
 }
@@ -52,4 +53,7 @@ article {
 }
 ul, ol {
     list-style-type: none;
+}
+p:first-child {
+    margin-top: 4vmin;
 }
