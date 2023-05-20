@@ -5,9 +5,9 @@
 :root {
     font-size: 4vh;
 }
-html {
+/* html {
     scroll-behavior: smooth;
-}
+} */
 body {
     box-sizing: border-box;
     background-color:rgb(213, 235, 255);
@@ -31,16 +31,16 @@ section {
 article {
     border-top: 1px solid rgb(141, 200, 255);
 }
-.gold, .silver, .bronze {font-weight: bold;}
+/* .gold, .silver, .bronze {font-weight: bold;}
 
 .gold {color: gold;}
 .silver {color: silver;}
-.bronze {color: #cd7f32;}
+.bronze {color: #cd7f32;} */
 
-.tag-explanation {
+/* .tag-explanation {
     font-style: italic;
     color: gray;
-}
+} */
 .block {
     background-color: orange;
 }

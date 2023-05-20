@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" href="../pictures/logo36.JPG" type="image/png">
+    <link rel="stylesheet" href="../css/style001.css">
+</head>
+<body>
+    <main>
+         <section>
+            <ul>
+                <li><a href="#css">CSS</a></li>
+                <li><a href="#css-selectors">Selektory CSS</a></li>
+                <li><a href="#css-attribute-selectors">Selektory atrybutów CSS</a></li>
+                <li><a href="#css-properties">Właściwości CSS</a></li>
+                <li><a href="#positioning">Pozycjonowanie</a></li>
+                <li><a href="#pseudoclasses">Pseudoklasy</a></li>
+                <li><a href="#pseudoelements">Pseudoelementy</a></li>
+                <li><a href="#cascading">Kaskadowość</a></li>
+                <li><a href="#flexbox">Flexbox</a></li>
+                <li><a href="#inheritance">Dziedziczenie</a></li>
+                <li><a href="#colors">Kolory</a></li>
+                <li><a href="#units">Jednostki</a></li>
+                <li><a href="#icons">Ikony</a></li>
+                <li><a href="#fonts">Czcionki</a></li>
+                <li><a href="#font-size">Wielkość czcionek</a></li>
+            </ul>
+        </section>
+
+        <section id="css">
+            <header>
+                <h2 class="title">CSS</h2>
+            </header>
+            <article>
+                <p>Arkusz stylów to zbiór reguł</p>
+                <p>Reguła to selektor i blok deklaracji</p>
+                <p>Blok deklaracji to pary właściwość : wartość</p>
+            </article>
+        </section>
+
+        <section id="css-selectors">
+            <header>
+                <h2 class="title">Selektory CSS</h2>
+            </header>
+            <!-- <p>&lt;a&gt;</p> -->
+            <article>
+                <p>tag, #id, .class, []</p>
+                <p><b>ab</b> - wybiera wszystkie elementy będące równocześnie a i b (tag, class, id, data-...)</p>
+                <p><b>a b</b> - wbiera wszystkie elementy b, które sa potomkami przodka a</p>
+                <p><b>a > b</b> - wybiera wszystkie elementy b, które są dziećmi rodzica a</p>
+                <p><b>a + b</b> - wybiera element b, który jest następnym sąsiadem a</p>
+                <p><b>a ~ b</b> - wyiera wszystkie elementy b, które są następnymi sąsiadami a</p>
+                <p><b>a, b</b> - wybiera wszystkie elementy będące a lub b</p>
+                <p><b>*</b> - wybiera wszystkie istniejące elementy (selektor uniwersalny)</p>
+            </article>
+        </section>
+    
+        <section id="css-attribute-selectors">
+            <header>
+                <h2 class="title">Selektory atrybutów CSS</h2>
+            </header>
+            <article>
+                <p>[atrybut operator wartość]</p>
+                <p>Operatory stosowane w selektorach atrybutów</p>
+                <p><b>=</b> wartość dokładnie odpowiada atrybutowi</p>
+                <p><b>*=</b> wartość występuje gdziekolwiek w atrybucie</p>
+                <p><b>~=</b> wartość występuje gdziekolwiek w atrybucie, ale oddzielona jest spacją/spacjami</p>
+                <p><b>^=</b> wartość występuje na początku atrybutu</p>
+                <p><b>$=</b> wartość występuje na końcu atrybutu</p>
+                <p><b>|=</b> wartość dokładnie odpowiada atrybutowi lub występuje w atrybucie z przedłużeniem po myślniku</p>
+                <p><b>i</b> (po wartości) ignoruje wielkość czcionki</p>
+            </article>
+        </section>
+    
+        <section id="css-properties">
+            <header>
+                <h2 class="title">Właściwości CSS</h2>
+            </header>
+            <article>
+                <p>background (url)</p>
+                <p>background-color</p>
+                <p>background-size (cover)</p>
+                <p>border</p>
+                <p>border-radius</p>
+                <p>color</p>
+                <p>column-count</p>
+                <p>column-gap</p>
+                <p>column-rule</p>
+                <p>column-width</p>
+                <p>content</p> (before/after)
+                <p>cursor</p>
+                <p>display (inline, box)</p>
+                <p>float</p>
+                <p>font</p>
+                <p>font-family</p>
+                <p>font-variant (small-caps, normal)</p>
+                <p>font-weight</p>
+                <p>font-size</p>
+                <p>letter-spacing (normal,...)</p>
+                <p>line-height (domyślnie 1.2)</p>
+                <p>list-style-type (ul/ol)</p>
+                <p>margin</p>
+                <p>opacity</p>
+                <p>outline</p>
+                <p>overflow (hidden)</p>
+                <p>padding</p>
+                <p>scroll-behavior</p>
+                <p>text-align (center, justify, left, right)</p>
+                <p>text-decoration (underline, overline, line-through)</p>
+                <p>text-decoration-style (dotted)</p>
+                <p>text-decoration-color</p>
+                <p>text-indent</p>
+                <p>text-shadow</p>
+                <p>text-transform (uppercase, capitalize, lowercase, none)</p>
+                <p>transform (scale, rotate)</p>
+                <p>transition (all 1s)</p>
+                <p>vertical-align (baseline, sub, super)</p>
+                <p>width (px, %)</p>
+                <p>word-spacing (normal,...)</p>
+            </article>
+        </section>
+    
+        <section id="positioning">
+            <header>
+                <h2 class="title">Pozycjonowanie</h2>    
+            </header>
+            <article>
+                <p>position (relative, absolute)</p>
+                <p>left</p>
+                <p>right</p>
+                <p>top</p>
+                <p>bottom</p>
+            </article>
+        </section>
+    
+        <section id="pseudoclasses">
+            <header>
+                <h2 class="title">Pseudoklasy</h2>
+            </header>
+            <article>
+                <p>:active</p>
+                <p>:first-child</p>
+                <p>:focus</p>
+                <p>:over</p>
+                <p>:last-child</p>
+                <p>:link</p>
+                <p>:not</p>
+                <p>:nth-child</p>
+                <p>:visited</p>
+            </article>
+        </section>
+    
+        <section id="pseudoelements">
+            <header>
+                <h2 class="title">Pseudoelementy</h2>
+            </header>
+            <article>
+                <p>::after {content:"🔥";} (unicode)</p>
+                <p>::before</p>
+                <p>::firstletter</p>
+                <p>::firstline</p>
+                <p>::selection</p>
+            </article>
+        </section>
+    
+        <section id="cascading">
+            <header>
+                <h2 class="title">Kaskadowość (przy remisie wygrywa ostatnia reguła)</h2>
+            </header>
+            <article>
+                <ol>
+                    <li>Ważne style użytkownika (najwyższy priorytet)</li>
+                    <li>Style autora strony
+                        <ol>
+                            <li>Ważne style (!important)</li>
+                            <li>Style liniowe (w atrybucie <strong>style</strong> elementów HTML)</li>
+                            <li>Style arkuszy zewnętrznych (specyficzność selektora - klasyfikacja medalowa (<span class="gold">ids</span>, <span class="silver">classes</span>, <span class="bronze">tags</span>) )</li>
+                        </ol>
+                    </li>
+                    <li>Style agenta użytkownika (najniższy priorytet)</li>
+                </ol>
+            </article>
+        </section>
+    
+        <section id="flexbox">
+            <header>
+                <h2 class="title">Flebox</h2>
+            </header>
+            <article>
+                <h3>container</h3>
+                <p>display (flex)</p>
+                <p>flex-direction (row, column)</p>
+                <p>flex-wrap (wrap, unwrap)</p>
+                <p>justify-content (center, flex-start...)</p>
+                <p>align-items (center, flex-start...)</p>
+                <p>align-content (center, flex-start...)</p>
+                <p>gap, row-gap, column-gap</p>
+                <h3>item</h3>
+                <p>...</p>
+            </article>
+        </section>
+    
+        <section id="inheritance">
+            <header>
+                <h2 class="title">Dziedziczenie</h2>
+            </header>
+            <article>
+                <p>inherite</p>
+                <p>initial</p>
+            </article>
+        </section>
+        
+        <section id="colors">
+            <h2 class="title">Kolory</h2>
+            <article>
+                <p>red</p>
+                <p>rgb(255, 0, 0)</p>
+                <p>rgba(55, 0, 0, 1)</p>
+                <p>#ff0000 (#f00)</p>
+                <p>hsl(0, 100%, 50%)</p>
+                <p>currentcolor</p>
+            </article>
+        </section>
+    
+        <section id="units">
+            <header>
+                <h2 class="title">Jednostki</h2>
+            </header>
+            <article>
+                <p>px (domyślna wielkość czcionki 16px)</p>
+                <p><b>em</b> (względem rodzica)</p>
+                <p><b>rem</b> (względem :root/html)</p>
+                <p><b>%</b> (względem rodzica)</p>
+                <p>cm, mm, in, pt, pc (zastosowanie w druku)</p>
+                <p>vw</p>
+                <p>vh</p>
+                <p>vmin</p>
+                <p>vmax</p>
+            </article>
+        </section>
+    
+        <section id="icons">
+            <header>
+                <h2 class="title">Ikony</h2>
+            </header>
+            <article>
+                <p>cdnjs.com (links)</p>
+                <p>fontawesome.com (icons)</p>
+            </article>
+        </section>
+    
+        <section id="fonts">
+            <header>
+                <h2 class="title">Czcionki</h2>
+            </header>
+            <article>
+                <p>cdnjs.com (links)</p>
+                <p>fontawesome.com (icons)</p>
+                <p>fonts.google.com</p>
+            </article>
+        </section>
+    
+        <section id="font-size">
+            <header>
+                <h2 class="title">Wielkość czcionek</h2>
+            </header>
+            <article>
+                <ul>
+                    <li><p>h1 - 2em = 32px</p></li>
+                    <li><p>h2 - 1.5em = 24px</p></li>
+                    <li><p>h3 - 1.17em = 18.72px</p></li>
+                    <li><p>h4 - 1em = 16px (wielkość domyślna)</p></li>
+                    <li><p>h5 - 0.83em = 13.28px</p></li>
+                    <li><p>h6 - 0.67em = 10.72px</p></li>
+                </ul>
+                <br>
+                <ul>
+                    <li><p>xxx-large - 3em = 48px</p></li>
+                    <li><p>xx-large - 2em = 32px</p></li>
+                    <li><p>x-large - 1.5em = 24px</p></li>
+                    <li><p>large - 1.1em = 18px</p></li>
+                    <li><p>medium - 1em = 16px</p></li>
+                    <li><p>small - 0.8em = 13px</p></li>
+                    <li><p>x-small - 0.63em = 10px</p></li>
+                    <li><p>xx-small - 0.56em = 9px</p></li>
+                </ul>
+            </article>
+        </section>
+    </main>
+
+</body>
+</html>
