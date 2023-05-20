@@ -12,7 +12,8 @@
 } */
 body {
     box-sizing: border-box;
-    background-color:rgb(213, 235, 255);
+    background-color:rgb(255, 235, 213);
+    /* background-color:rgb(213, 235, 255); */
     font-family: consolas;
     height: 100vh;
     /* width: 100vw; */
