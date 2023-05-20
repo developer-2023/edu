@@ -1,11 +1,10 @@
-/* * {
+* {
     margin: 0;
     padding: 0;
-} */
-
-/* :root {
-    font-size: 20px;
-} */
+}
+:root {
+    font-size: 4vh;
+}
 html {
     scroll-behavior: smooth;
 }
