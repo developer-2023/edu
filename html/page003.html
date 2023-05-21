@@ -65,14 +65,14 @@
                 <h2 class="title">Typy proste</h2>
             </header>
             <article>
-                <p><b>Number</b></p>
+                <p><b>number</b></p>
                 <p>10</p>
                 <p>3.1415</p>
                 <p>.99</p>
                 <p>0xf</p>
                 <p>Uwaga: 0.1 * 0.2 = 0.020000000000000004</p>
                 <br>
-                <p><b>String (literał znakowy, literał łańcuchowy)</b></p>
+                <p><b>string (literał znakowy, literał łańcuchowy)</b></p>
                 <p><b>+</b> (konkatenacja)</p>
                 <p>.length (długość)</p>
                 <p>str[0] (pierwszy element)</p>
@@ -84,7 +84,7 @@
                 <p><b>Literał szablonu </b></p>
                 <p>`Your age is ${yourAge}`</p>
                 <br>
-                <p><b>Boolean</b></p>
+                <p><b>boolean</b></p>
                 <p>true</p>
                 <p>false</p>
                 <p>&lt; &gt; = &gt= &lt;= == !=</p>
@@ -107,18 +107,29 @@
                 <h2 class="title">Typy złożone</h2>
             </header>
             <article>
-                <p><b>Object</b></p>
+                <p><b>object</b></p>
                 <p>Notacja literałowa</p>
                 <p>let object =｛</p>
                 <p>&nbsp;&nbsp;&nbsp;&nbsp;property: value,</p>
                 <p>&nbsp;&nbsp;&nbsp;&nbsp;...</p>
                 <p>｝</p>
                 <br>
-                <p><b>Array</b></p>
-                <p>let arr = [23, "Mark", {}]</p>
+                <p><b>array</b></p>
+                <p>let arr = [23, "Mark", {a:12}]</p>
                 <p>.length</p>
                 <p>arr[0] (pierwszy element)</p>
                 <p>arr[arr.length - 1] (ostatni element)</p>
+            </article>
+        </section>   
+        <section id="non">
+            <header>
+                <h2 class="title">NaN</h2>
+            </header>
+            <article>
+                <p><b>NaN</b></p>
+                <p>NaN to specjalna wartość, nie jest typem danych</p>
+                <p>let a = Math.sqrt(-3)</p>
+                <p>isNaN(a) // true</p>
             </article>
         </section>   
     </main>
