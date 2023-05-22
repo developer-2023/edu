@@ -13,40 +13,50 @@
          <section>
             <ul>
                 <li><a href="#intro">O języku JavaScript</a></li>
-                <li><a href="#commands">Polecenia</a></li>
-                <li><a href="#variables">Zmienne i stałe</a></li>
-                <li><a href="#primitives">Typy proste</a></li>
-                <li><a href="#objects">Objekty</a></li>
+                <li><a href="#commands">Commands</a></li>
+                <li><a href="#variables">Variables and Constans</a></li>
+                <li><a href="#primitives">Primitives</a></li>
+                <li><a href="#objects">Objects</a></li>
                 <li><a href="#nan">NaN</a></li>
                 <li><a href="#if">if</a></li>
                 <li><a href="#switch">switch</a></li>
                 <li><a href="#while">while</a></li>
                 <li><a href="#do-while">do while</a></li>
                 <li><a href="#for">for</a></li>
+                <li><a href="#arithmetic-operators">Arithmetic Operators</a></li>
+                <li><a href="#assignment-operators">Assignment Operators</a></li>
+                <li><a href="#comparison-operators">Comparison Operators</a></li>
+                <li><a href="#logical-operators">Logical Operators</a></li>
+                <li><a href="#type-operators">Type Operators</a></li>
+                <li><a href="#comma-operator">Comma Operator</a></li>
+                <li><a href="#unary-operators">Unary Operators</a></li>
+                <li><a href="#relational-operators">Relational Operators</a></li>
+                <li><a href="#typeof-operator">Typeof Operator</a></li>
+                <li><a href="#ternary">Conditional (Ternary) Operator</a></li>
             </ul>
         </section>
 
         <section id="intro">
             <header>
-                <h2 class="title">O języku JavaScript</h2>
+                <h2 class="title">About JavaScript</h2>
             </header>
             <article>
-                <p>JavaScript jest językiem dynamicznie typowanym</p>
-                <p>JavaScript nie posiada typów zmiennych</p>
-                <p>JavaScript posiada typy wartości</p>
-                <p>JavaScript jest case sensitive</p>
+                <p>dynamically typed</p>
+                <p>variables have no type</p>
+                <p>values have type</p>
+                <p>case sensitive</p>
             </article>
         </section>   
 
         <section id="commands">
             <header>
-                <h2 class="title">Polecenia</h2>
+                <h2 class="title">Commands</h2>
             </header>
             <article>
                 <p>console.log("Hello" + "World!");</p>
                 <p>console.warn("Ups", " look!");</p>
                 <p>console.clear();</p>
-                <p>; nie jest wymagany</p>
+                <p>; is not required after the command</p>
                 <p></p>
                 <p></p>
             </article>
@@ -54,21 +64,21 @@
 
         <section id="variables">
             <header>
-                <h2 class="title">Zmienne i stałe</h2>
+                <h2 class="title">Variables and Constans</h2>
             </header>
             <article>
-                <p>let (zasięg blokowy)</p>
-                <p>const (zasięg blokowy)</p>
-                <p>var (zasięg funkcyjny, dopuszczalne wielokrotne deklaracje tej samej zmiennej)</p>
+                <p>let (block range)</p>
+                <p>const (block range)</p>
+                <p>var (multiple declarations of the same variable are allowed)</p>
                 <p>camelCase</p>
-                <p>_ $</p>
+                <p>_ $ (are allowed as the first character of the variable name)</p>
                 <p>...</p>
             </article>
         </section>   
 
         <section id="primitives">
             <header>
-                <h2 class="title">Typy proste</h2>
+                <h2 class="title">Primitives</h2>
             </header>
             <article>
                 <p><b>number</b></p>
@@ -76,18 +86,18 @@
                 <p>3.1415</p>
                 <p>.99</p>
                 <p>0xf</p>
-                <p>Uwaga: 0.1 * 0.2 = 0.020000000000000004</p>
+                <p>Note: 0.1 * 0.2 = 0.020000000000000004</p>
                 <br>
                 <p><b>string (literał znakowy, literał łańcuchowy)</b></p>
-                <p><b>+</b> (konkatenacja)</p>
-                <p>.length (długość)</p>
-                <p>str[0] (pierwszy element)</p>
-                <p>str[str.length - 1] (ostatni element)</p>
+                <p><b>+</b> (concatenation)</p>
+                <p>.length</p>
+                <p>str[0] (first element)</p>
+                <p>str[str.length - 1] (last element)</p>
                 <p>ą, ć, ę, ł, ń, ó, ś, ź, ż</p>
                 <p>♔ &#9813;&#9814;&#9815;&#9816;&#9817;&#9818;&#9819;&#9820;&#9821;&#9822;&#9823;</p>
                 <p>🐐 🐠</p>
                 <br>
-                <p><b>Literał szablonu </b></p>
+                <p><b>Template literal</b></p>
                 <p>`Your age is ${yourAge}`</p>
                 <br>
                 <p><b>boolean</b></p>
@@ -99,10 +109,10 @@
                 <p>9007199254740992n</p>
                 <br>
                 <p><b>undefined</b></p>
-                <p>Nigdy nie przypisujemy tej wartości zmiennej. Zmienna posiada wartość tego typu, gdy nie przypiszemy jej wartości.</p>
+                <p>Never assign this value to a variable. A variable has a value of this type when we do not assign a value to it.</p>
                 <br>
                 <p><b>null</b></p>
-                <p>Przypisujemy, gdy zmienna nie ma mieć wartości</p>
+                <p>We assign it to a variable when the variable is not supposed to have a value.</p>
                 <br>
                 <p><b>symbol</b></p>
                 <p>let uniqueSymbol = Symbol();</p>
@@ -110,11 +120,11 @@
         </section>   
         <section id="objects">
             <header>
-                <h2 class="title">Objekty</h2>
+                <h2 class="title">Objects</h2>
             </header>
             <article>
                 <p><b>object</b></p>
-                <p>Notacja literałowa</p>
+                <p>Literal notation</p>
                 <p>let object = {</p>
                 <p>&nbsp;&nbsp;&nbsp;&nbsp;property: value,</p>
                 <p>&nbsp;&nbsp;&nbsp;&nbsp;...</p>
@@ -123,8 +133,8 @@
                 <p><b>array</b></p>
                 <p>let arr = [23, "Mark", {a:12}]</p>
                 <p>.length</p>
-                <p>arr[0] (pierwszy element)</p>
-                <p>arr[arr.length - 1] (ostatni element)</p>
+                <p>arr[0] (first element)</p>
+                <p>arr[arr.length - 1] (last element)</p>
             </article>
         </section>   
         <section id="nan">
@@ -132,7 +142,7 @@
                 <h2 class="title">NaN</h2>
             </header>
             <article>
-                <p>NaN to specjalna wartość, nie jest typem danych</p>
+                <p>NaN is a special value, it is not a data type</p>
                 <p>let a = Math.sqrt(-3)</p>
                 <p>isNaN(a) // true</p>
             </article>
