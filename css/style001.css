@@ -67,12 +67,31 @@ tr {
     display: flex;
     width: 100%;
 }
-.left {
-    width: 40%;
-}
-.right {
+/* .right {
     width: 60%;
-}
+} */
 h2 {
     margin-bottom: 4vmin;
+}
+@media (orientation: landscape) {
+    body {
+        font-size: 3vw;
+    }
+    nav {
+        flex-direction: row;
+    }
+    .left{
+        width: 30vw;
+    }
+}
+@media (orientation: portrait) {
+    body {
+        font-size: 3vw;
+    }
+    nav {
+        flex-direction: column;
+    }
+    .left {
+        width: 30vw;
+    }
 }
