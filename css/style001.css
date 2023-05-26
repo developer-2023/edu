@@ -12,6 +12,7 @@ body {
     box-sizing: border-box;
     background-color:rgb(213, 235, 255);
     font-family: consolas;
+    padding: 1rem;
 }
 section {
     border-radius: 1rem;
@@ -73,28 +74,28 @@ tr {
 h2 {
     margin-bottom: 4vmin;
 }
-/* @media (orientation: landscape) {
-    body {
+@media (orientation: landscape) {
+    /* body {
         font-size: 3vw;
-    }
-    nav {
+    } */
+    /* nav {
         flex-direction: row;
-    }
+    } */
     .left{
         width: 30vw;
     }
 }
 @media (orientation: portrait) {
-    body {
+    /* body {
         font-size: 5vw;
-    }
-    nav {
+    } */
+    /* nav {
         flex-direction: column;
-    }
+    } */
     .left {
         width: 30vw;
     }
-} */
+}
 .xxx-large {
     font-size: 48px;
 }
@@ -121,7 +122,6 @@ h2 {
 }
 @media screen and (min-device-width: 600px) {
     body {
-        /* font-size: large !important; */
-        columns: 300px 4;
+        columns: 400px;
     }
 }
