@@ -73,7 +73,7 @@ tr {
 h2 {
     margin-bottom: 4vmin;
 }
-@media (orientation: landscape) {
+/* @media (orientation: landscape) {
     body {
         font-size: 3vw;
     }
@@ -86,7 +86,7 @@ h2 {
 }
 @media (orientation: portrait) {
     body {
-        font-size: 3vw;
+        font-size: 5vw;
     }
     nav {
         flex-direction: column;
@@ -94,7 +94,7 @@ h2 {
     .left {
         width: 30vw;
     }
-}
+} */
 .xxx-large {
     font-size: 48px;
 }
@@ -118,4 +118,11 @@ h2 {
 }
 .xx-small {
     font-size: 9px;
+}
+@media screen and (min-device-width: 600px) {
+    body {
+        background-color: red;
+        font-size: large !important;
+        columns: 300px 4;
+    }
 }
