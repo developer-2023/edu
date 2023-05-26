@@ -82,7 +82,7 @@ h2 {
         flex-direction: row;
     } */
     .left{
-        width: 20vw;
+        width: 40%;
     }
 }
 @media (orientation: portrait) {
@@ -93,7 +93,7 @@ h2 {
         flex-direction: column;
     } */
     .left {
-        width: 30vw;
+        width: 40%;
     }
 }
 .xxx-large {
