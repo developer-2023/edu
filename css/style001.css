@@ -122,6 +122,6 @@ h2 {
 }
 @media screen and (min-device-width: 600px) {
     body {
-        columns: 375px;
+        columns: 350px;
     }
 }
