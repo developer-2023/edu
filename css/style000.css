@@ -23,31 +23,23 @@ body {
     /* align-content:space-between; */
     /* border: 2px solid green; */
 }
-/* @media (orientation: landscape) {
-    body {
-        flex-direction: row;
-        font-size: 3vw;
-    }
+@media (orientation: landscape) {
     nav {
         flex-direction: row;
     }
 }
 @media (orientation: portrait) {
-    body {
-        flex-direction: column;
-        font-size: 3vw;
-    }
     nav {
         flex-direction: column;
     }
-} */
+}
 
-@media screen and (min-device-width: 600px) {
+/* @media screen and (min-device-width: 600px) {
     body {
         background-color: red;
         font-size: large !important;
     }
-}
+} */
 
 .wrapper {
     margin-top: 1vmin;
