@@ -121,8 +121,7 @@ h2 {
 }
 @media screen and (min-device-width: 600px) {
     body {
-        background-color: red;
-        font-size: large !important;
+        /* font-size: large !important; */
         columns: 300px 4;
     }
 }
