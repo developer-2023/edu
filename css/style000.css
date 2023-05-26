@@ -43,8 +43,9 @@ body {
 } */
 
 @media screen and (min-device-width: 600px) {
-    p {
+    body {
         background-color: red;
+        font-size: large !important;
     }
 }
 
