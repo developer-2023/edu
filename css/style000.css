@@ -23,7 +23,7 @@ body {
     /* align-content:space-between; */
     /* border: 2px solid green; */
 }
-@media (orientation: landscape) {
+/* @media (orientation: landscape) {
     body {
         flex-direction: row;
         font-size: 3vw;
@@ -40,7 +40,14 @@ body {
     nav {
         flex-direction: column;
     }
+} */
+
+@media screen and (min-device-width: 600px) {
+    p {
+        background-color: red;
+    }
 }
+
 .wrapper {
     margin-top: 1vmin;
     margin-bottom: 1vmin;
