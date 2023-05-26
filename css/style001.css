@@ -82,7 +82,7 @@ h2 {
         flex-direction: row;
     } */
     .left{
-        width: 30vw;
+        width: 20vw;
     }
 }
 @media (orientation: portrait) {
@@ -122,6 +122,6 @@ h2 {
 }
 @media screen and (min-device-width: 600px) {
     body {
-        columns: 400px;
+        columns: 375px;
     }
 }
