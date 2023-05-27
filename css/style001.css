@@ -46,12 +46,6 @@ article {
     font-style: italic;
     color: gray;
 } */
-.block {
-    background-color: orange;
-}
-.block.semantic {
-    background-color: limegreen;
-}
 #html-tags p {
     /* display: inline; */
 }
@@ -87,9 +81,6 @@ h2 {
     .left {
         width: 40%;
     }
-    .mid {
-        width: 5%;
-    }
 }
 @media (orientation: portrait) {
     /* body {
@@ -100,9 +91,6 @@ h2 {
     } */
     .left {
         width: 40%;
-    }
-    .mid {
-        width: 5%;
     }
 }
 .xxx-large {
