@@ -22,7 +22,10 @@ section {
     box-shadow: 0 0 0.4rem gray;
     overflow: hidden;
     text-overflow: ellipsis;
-    word-wrap: break-word; 
+    word-wrap: break-word;
+
+    /* min-width: 320px; */
+
 }
 .title {
     margin-top: 0;
