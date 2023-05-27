@@ -88,7 +88,7 @@ h2 {
         width: 40%;
     }
     .mid {
-        width: 10%;
+        width: 5%;
     }
 }
 @media (orientation: portrait) {
@@ -102,7 +102,7 @@ h2 {
         width: 40%;
     }
     .mid {
-        width: 10%;
+        width: 5%;
     }
 }
 .xxx-large {
