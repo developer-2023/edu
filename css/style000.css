@@ -2,14 +2,16 @@
     margin: 0;
     padding: 0;
 }
+/*
 :root {
-    /* font-size: 4vmin; */
-    /* min-width: 200px;
-    min-height: 300px; */
+    font-size: 4vmin;
+    min-width: 200px;
+    min-height: 300px;
 }
-/* html {
+html {
     scroll-behavior: smooth;
-} */
+}
+*/
 body {
     box-sizing: border-box;
     background-color:rgb(235, 235, 235);
