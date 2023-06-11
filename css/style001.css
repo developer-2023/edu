@@ -52,9 +52,9 @@ article {
 ul, ol {
     list-style-type: none;
 }
-p:first-child, ol, h3 {
+/* p:first-child, ol, h3 {
     margin-top: 4vmin;
-}
+} */
 .zebra tr:nth-child(odd) {
     background-color: rgb(230, 230, 230);
 }
